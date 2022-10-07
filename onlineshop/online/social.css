@@ -1,0 +1,162 @@
+.div-social{
+    margin: 0 ;
+    padding: 0;
+
+    
+}
+
+.ul-social{
+    width: 150%;
+    height: 10%;
+    position: fixed; 
+    margin:10% 0px;   
+}
+
+.ul-social li{
+    cursor: pointer;
+    list-style: none; 
+    text-align: center; 
+    width: 50px;
+    height: 50px;
+    padding-bottom:10px;
+    padding-left:5px;
+   
+    
+    
+}
+.li-social a {
+    cursor: pointer;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    line-height: 50px;
+    display:block;
+    color: #fff;
+    background: #f00;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+
+/* bg-colors */
+.ul-social .li-social:nth-child(1) a{
+    background: #3b5998;
+    
+}
+
+.ul-social .li-social:nth-child(2) a{
+    background: #bb0000;
+    
+}
+
+.ul-social .li-social:nth-child(3) a{
+    background: #bc2a8d;
+    
+}
+
+.ul-social .li-social:nth-child(4) a{
+    background: #dd4b39;
+    
+}
+
+.ul-social .li-social:nth-child(5) a{
+    background: #007bb6;
+    
+}
+
+
+/* animate  bounceIn */
+.ul-social li:hover{
+   animation: bounceIna  2s infinite;
+   color: white;
+
+}
+
+.ul-social:hover{
+    color:white;
+}
+
+
+.aa:hover{
+    cursor: pointer;
+    color: white;
+    
+}
+
+.a-social:hover{
+    color: white;
+}
+
+/* my edited lib */
+@keyframes bounceIna{
+    0%{
+         -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    transform: scale3d(0.85, 0.85, 0.85);
+        transform: translate3d(2px,2px,2px);
+    }
+    
+    10%{
+        -webkit-transform: scale3d(1.15, 1.15, 1.15);
+    transform: scale3d(1.15, 1.15, 1.15);
+         transform: translate3d(-2px,-2px,-2px);
+    }
+    
+    20%{
+         -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    transform: scale3d(0.85, 0.85, 0.85);
+         transform: translate3d(2px,2px,2px);
+    }
+    
+    30%{
+        -webkit-transform: scale3d(1.15, 1.15, 1.15);
+    transform: scale3d(1.15, 1.15, 1.15);
+        transform: translate3d(-2px,-2px,-2px);
+    }
+    
+    40%{
+         -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    transform: scale3d(0.85, 0.85, 0.85);
+         transform: translate3d(2px,2px,2px);
+    }
+    
+    50%{
+        -webkit-transform: scale3d(1.15, 1.15, 1.15);
+    transform: scale3d(1.15, 1.15, 1.15);
+        transform: translate3d(-2px,-2px,-2px);
+    }
+    
+    60%{
+         -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    transform: scale3d(0.85, 0.85, 0.85);
+        transform: translate3d(2px,2px,2px);
+    }
+    
+    70%{
+        -webkit-transform: scale3d(1.15, 1.15, 1.15);
+    transform: scale3d(1.15, 1.15, 1.15);
+         transform: translate3d(-2px,-2px,-2px);
+    }
+    
+    80%{
+         -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    transform: scale3d(0.85, 0.85, 0.85);
+         transform: translate3d(2px,2px,2px);
+    }
+    
+    90%{
+        -webkit-transform: scale3d(1.15, 1.15, 1.15);
+    transform: scale3d(1.15, 1.15, 1.15);
+        transform: translate3d(-2px,-2px,-2px);
+    }
+    
+    100%{
+         -webkit-transform: scale3d(0.85, 0.85, 0.85);
+    transform: scale3d(0.85, 0.85, 0.85);
+         transform: translate3d(2px,2px,2px);
+    }
+    
+
+    
+   
+}

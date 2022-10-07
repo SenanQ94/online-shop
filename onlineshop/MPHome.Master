@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MPHome.master.cs" Inherits="onlineshop.pages.MPHome" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+        <meta charset="utf-8"/>
+    <title>Home</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width"/>
+
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="online/style.css" media="screen"/>
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="online/style.responsive.css" media="all"/>
+
+    <link rel="stylesheet" href="webfont/css/fontawesome-all.min.css"/>
+
+
+    <script src="online/jquery.js"></script>
+    <script src="online/script.js"></script>
+    <script src="online/script.responsive.js"></script>
+
+    <style>.art-content .art-postcontent-0 .layout-item-0 { margin-top: 10px;margin-bottom: 10px;  }
+    .art-content .art-postcontent-0 .layout-item-1 { border-spacing: 10px 0px; border-collapse: separate;  }
+    .art-content .art-postcontent-0 .layout-item-2 { color: #1A1A1A; background: #FDEED3; padding-right: 10px;padding-left: 10px;  }
+    .art-content .art-postcontent-0 .layout-item-3 { padding-right: 10px;padding-left: 10px;  }
+    .art-content .art-postcontent-0 .layout-item-4 { margin-top: 5px;margin-bottom: 5px;  }
+    .ie7 .post .layout-cell {border:none !important; padding:0 !important; }
+    .ie6 .post .layout-cell {border:none !important; padding:0 !important; }
+
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="art-main">
+
+             <!-- القوائم -->
+        <nav id="menu">
+            <h1 id="logo" class="logo animated flash ">
+                    Tech-Shop</h1>
+            <ul class="menu-all">
+                <li class="menu-item" ><a style="color:yellow;" href="home.aspx">Log Out</a></li>
+                <li class="menu-item"><a href="#contact">Shopping Card</a></li>
+                <li class="menu-item"><a href="AddProduct.aspx">Sell Products</a></li>
+                <li class="menu-item"><a href="AllProducts.aspx">All Products</a></li>
+                <li class="menu-item"><a href="Category.aspx">Category</a></li>
+                
+            </ul>
+       
+        </nav>
+
+        <!--  رأس الصفحة -->   
+        <header class="art-header clearfix">
+
+
+            <div class="art-shapes">
+                <h1 class="art-headline" data-left="4.72%">
+                    <a href="#">Tech-Shop</a>
+                </h1>
+                <h2 class="art-slogan" data-left="5.4%"> all you need to know about electronics </h2>
+                <!-- صورة البنت -->  
+                <div class="art-object0" data-left="100%">
+                </div>
+
+            </div>
+
+
+              <!-- social media -->
+            <div class="div-social">
+                <ul class="ul-social">
+                    <li class="li-social" ><a class="a-social" href="https://www.facebook.com/senan.syrian" target="_blank"><i class="fab fa-facebook-f aa "></i></a></li>
+                    <li class="li-social"><a class="a-social" href="https://www.youtube.com/channel/UCPoVeX6LLIlI41lEyvV4FNA" target="_blank"><i class="fab fa-youtube aa"></i></a></li>
+                    <li class="li-social"><a class="a-social" href="https://www.instagram.com/senan._.94/" target="_blank"><i class="fab fa-instagram aa"></i></a></li>
+                    <li class="li-social"><a class="a-social" href="https://plus.google.com/116723293524156491394" target="_blank"><i class="fab fa-google-plus-g aa"></i></a></li>
+                    <li class="li-social"><a class="a-social" href="https://www.linkedin.com/in/senan-karhiely-72b2a9140" target="_blank"><i class="fab fa-linkedin-in aa"></i></a></li>
+
+                </ul>
+            </div>
+
+
+
+        </header>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <!-- footer-->    
+         <section id="wsfooter">
+            <p>
+                جميع الحقوق محفوظة لصاحب الموقع
+            </p>
+            <p>
+               Tel: 0994785106 | <a href="mailto:careless.whispers94@hotmail.com">E-Mail: careless.whispers94@hotmail.com</a>
+            </p>
+            
+        
+        </section>
+        
+    </div>
+    </form>
+</body>
+</html>

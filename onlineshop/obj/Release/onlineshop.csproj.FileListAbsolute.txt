@@ -1,0 +1,10 @@
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\bin\onlineshop.dll.config
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\bin\onlineshop.dll
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\bin\onlineshop.pdb
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\bin\EntityFramework.dll
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\bin\EntityFramework.SqlServer.dll
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\bin\EntityFramework.xml
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\bin\EntityFramework.SqlServer.xml
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\obj\Release\onlineshop.csprojResolveAssemblyReference.cache
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\obj\Release\onlineshop.dll
+E:\مشاريع\مشاريع\New folder\New folder\onlineshop\onlineshop\onlineshop\obj\Release\onlineshop.pdb
